@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-:root{
-    --text-color:#fff;
+:root {
+    --text-color: #fff;
 }
 
-.img{
+.img {
     background-image: url("images/banner.jpg");
     width: 100%;
     height: 554px;
@@ -20,41 +20,27 @@
     position: relative;
 }
 
-.nav-link{
+.nav-link {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
-    color: var(--text-color)!important;
+    color: var(--text-color) !important;
     font-size: 18px;
-  
+
 }
 
-/* .pos-fix{
-    position: fixed;
-    z-index: 0;
-} */
-
-
-/* .nav-blur{
-    width: 100%;
-    height: 92vh;
-    justify-content: center;
-    align-items: center;
-    gap: 76px;
-    } */
-
-    
 
 
 
 
-@media screen and (max-width: 500px){
-    .mob-pad{
+
+@media screen and (max-width: 500px) {
+    .mob-pad {
         padding: 0px 20px !important;
     }
 }
 
- @media screen and (max-width: 1000px){
-    .nav-mobile{
+@media screen and (max-width: 1000px) {
+    .nav-mobile {
         width: 100%;
         height: 80vh;
         justify-content: center;
@@ -62,17 +48,23 @@
         gap: 50px;
         transform: translateX(-1000px);
     }
-    .pos-fix{
-        position: fixed !important;
-        z-index: 1 ;
-    }
-    .img{
-        height: 100vh;
-    }
-    
-   
 
-    .blur{
+    .pos-fix {
+        position: fixed !important;
+        z-index: 1;
+    }
+
+    .img {
+        height: 100vh;
+        position: fixed;
+    }
+
+   .close{
+    background-image:url('images/close-image.svg') !important;
+   }
+
+   
+    .blur {
         background-image: url("images/banner.jpg");
         width: 100%;
         height: 100vh;
@@ -82,23 +74,20 @@
         position: absolute;
         top: 0;
         filter: blur(3px);
-        transform: translateX(-1000px);
+        display: none;
     }
-    .trans{
+
+    .trans {
         transform: translateX(0);
-        
-        transition-duration: 2s;
+        transition-duration: 1s;
         transition-timing-function: ease-in-out;
-        
+
     }
-    .blur_trans{
-        transform: translateX(0);
+
+    .blur_trans {
+        display: block;
         transition-duration: 2s;
-        transition-timing-function: ease-in-out;
-       
+
     }
-    
-} 
 
-
-
+}

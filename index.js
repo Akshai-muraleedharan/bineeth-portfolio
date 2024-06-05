@@ -1,14 +1,20 @@
 const ulList = document.querySelector('#list_con');
 const toggleBtn =document.querySelector('#span_toggle')
 const blurScreen =document.querySelector('#blur_screen')
-function toggleButton() {
 
-   ulList.classList.add('trans')
-   blurScreen.classList.add('blur_trans')
+
+// toggle boutton for responsive
+
+function toggleButton() {
+ 
+    ulList.classList.toggle('trans')
+    blurScreen.classList.toggle('blur_trans')
+    toggleBtn.classList.toggle('close')
+
 }
 
 toggleBtn.addEventListener('click',toggleButton)
 
 
-
+// ----------------------------------------------------
 
