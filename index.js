@@ -3,7 +3,6 @@ const toggleBtn =document.querySelector('#span_toggle');
 const blurScreen =document.querySelector('#blur_screen');
  const heroContent =document.querySelector('#hero_content');
 
-console.log(heroContent);
 
 // toggle boutton for responsive
 
