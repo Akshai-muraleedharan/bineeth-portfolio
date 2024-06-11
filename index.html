@@ -148,31 +148,39 @@
         </section>
 
         <section class="contact_section">
-            <h1>Contact</h1>
-          <div class="contact_container">
-            <form action="">
-                <div>
-                    <label for="firstname">Fullname</label>
-                    <input type="text" placeholder="Firstname">
-                    <div class="warn"></div>
-                </div>
-                
-                <div>
-                    <label for="email">Email</label>
-                    <input type="email" placeholder="Email">
-                    <div class="warn"></div>
-                </div>
+           <h1>Contact</h1>
+       
 
-                <div>
-                    <label for="phone">Phone</label>
-                    <input type="text" placeholder="Phone">
-                    <div class="warn"></div>
-                </div>
-                <div>
-                    <button>submit</button>
-                </div>
-               </form>
-          </div>
+
+
+          <form class="row g-3">
+            <div class="col-md-12">
+              <label for="validationDefault01" class="form-label">Full name</label>
+              <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
+            </div>
+            
+           
+            <div class="col-md-12">
+              <label for="validationDefault03" class="form-label">Email</label>
+              <input type="text" class="form-control" id="validationDefault03" required>
+            </div>
+          
+
+            <div class="col-md-12">
+              <label for="validationDefault05" class="form-label">Phone</label>
+              <input type="text" class="form-control" id="validationDefault05" required>
+            </div>
+
+            <div class="col-md-12">
+                <label for="validationDefault06">Comments</label>
+                <textarea class="form-control" placeholder="Leave a comment here" id="validationDefault06" style="height: 100px"></textarea>
+               
+              </div>
+           
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+          </form>
         </section>
 
     </div>
