@@ -283,4 +283,8 @@ button{
     .contact_container{
         width: 100%;
     }
+
+    .contact_section{
+        padding: 20px;
+    }
 }
