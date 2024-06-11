@@ -30,10 +30,10 @@
 
 
 
- .pos-fix {
+.pos-fix {
     position: fixed !important;
     z-index: 1;
-} 
+}
 
 .postion_absolute {
     width: 100%;
@@ -161,6 +161,12 @@
         display: none;
     }
 
+    .container_blur {
+        height: 40px;
+        background: rgb(75 66 57 / 20%);
+        backdrop-filter: blur(26px);
+    }
+
 }
 
 
@@ -177,7 +183,7 @@
 
 }
 
-.section_work h1{
+.section_work h1 {
     color: white;
     text-align: center;
     margin-bottom: 30px;
@@ -185,61 +191,24 @@
     font-weight: 500;
 }
 
-/* re-edit */
-.card_img {
-    width: 350px;
-    border-top-right-radius: 3px;
-    border-top-left-radius: 3px;
+.cards_none {
+    display: none;
 }
 
-.section_container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 25px;
-
-    
-}
-
-.card_container {
-    width: 350px;
-    margin: 0px auto;
-}
-
-.card_content {
-    background-color: gray;
-    padding: 10px;
-    letter-spacing: 0.5px;
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
-}
-
-@media screen and (max-width: 550px) {
-    .card_container{
-        width: 100%;
+@media screen and (max-width: 700px) {
+    .section_work {
+        padding: 20px;
     }
 
-    .card_img{
-        width: 100%;
-    }
 }
 
 
-@media screen and (min-width: 550px) and (max-width:900px){
-     .card_container{
-        width: 200px;
-    }
-
-    .card_img{
-        width: 200px;
-    }
-}
-
-.contact_section{
+.contact_section {
     padding: 0px 3.75rem 60px 3.75rem;
     background-color: #000;
 }
 
-.contact_section h1{
+.contact_section h1 {
     color: white;
     text-align: center;
     margin-bottom: 30px;
@@ -248,43 +217,34 @@
 }
 
 
-label{
+label {
     display: block;
     color: #fff;
     margin-bottom: 10px;
 }
 
-input{
-    width: 100%;
-    padding: 4px 0px 4px 3px;
-    border-radius: 3px;
-    outline: none;
-    
-}
 
-.contact_container{
+.contact_container {
     width: 500px;
     margin: 0px auto;
 }
 
-.warn{
+.warn {
     height: 30px;
 
 }
 
-button{
+button {
     background-color: #1818f0;
     padding: 5px 10px;
     border: none;
     color: #fff;
 }
 
-@media screen and (max-width:900px){
-    .contact_container{
-        width: 100%;
-    }
+@media screen and (max-width:900px) {
 
-    .contact_section{
+
+    .contact_section {
         padding: 20px;
     }
 }
