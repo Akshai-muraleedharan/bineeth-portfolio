@@ -6,15 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
 </head>
 
 <body>
 
     <div>
-        <div class="img" >
-           
+        <div class="img">
+            <!-- updation -->
+            <img src="images/banner.jpg" alt="banner" style="display: none;">
+            <!-- updation -->
             <div class="container-fluid px-5 mob-pad pos-fix index">
                 <!-- header -->
 
@@ -24,8 +26,7 @@
                         <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> -->
                         <span class="navbar-toggler-icon d-lg-none toggle-btn" id="span_toggle"></span>
                         </button>
-                        <div class="collapse navbar-collapse d-flex justify-content-end   d-lg-block "
-                            id="navbarNav">
+                        <div class="collapse navbar-collapse d-flex justify-content-end   d-lg-block " id="navbarNav">
                             <ul class="navbar-nav nav-mobile" id="list_con">
                                 <li class="nav-item">
                                     <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -48,23 +49,135 @@
             </div>
 
 
-             
 
 
-             <div class="postion_absolute" >
+
+            <div class="postion_absolute">
                 <div class="content_holder" id="hero_content">
                     <h1>Creative Designer</h1>
                     <h3> Bineeth</h3>
                 </div>
                 <div class="blur " id="blur_screen"></div>
+            </div>
+
+
         </div>
 
 
+
+        <section class="section_work">
+
+            <h1>Works</h1>
+
+            <div  class="section_container">
+
+
+                <div class="card_container">
+                    <div >
+                        <img src="card-image/living-room.jpg" alt="living-room"  class="card_img">
+                    </div>
+                    <div class="card_content" >
+                        <h2 style="color: azure;">heading</h2>
+                        <h3 style="color: azure;">sub-heading</h3>
+                    </div>
+
+                </div>
+
+
+
+                <div class="card_container">
+                    <div >
+                        <img src="card-image/living-room.jpg" alt="living-room"  class="card_img">
+                    </div>
+                    <div class="card_content" >
+                        <h2 style="color: azure;">heading</h2>
+                        <h3 style="color: azure;">sub-heading</h3>
+                    </div>
+
+                </div>
+                <div class="card_container">
+                    <div >
+                        <img src="card-image/living-room.jpg" alt="living-room"  class="card_img">
+                    </div>
+                    <div class="card_content" >
+                        <h2 style="color: azure;">heading</h2>
+                        <h3 style="color: azure;">sub-heading</h3>
+                    </div>
+
+                </div>
+                <div class="card_container">
+                    <div >
+                        <img src="card-image/living-room.jpg" alt="living-room"  class="card_img">
+                    </div>
+                    <div class="card_content" >
+                        <h2 style="color: azure;">heading</h2>
+                        <h3 style="color: azure;">sub-heading</h3>
+                    </div>
+
+                </div>
+                <div class="card_container">
+                    <div >
+                        <img src="card-image/living-room.jpg" alt="living-room"  class="card_img">
+                    </div>
+                    <div class="card_content" >
+                        <h2 style="color: azure;">heading</h2>
+                        <h3 style="color: azure;">sub-heading</h3>
+                    </div>
+
+                </div>
+                <div class="card_container">
+                    <div >
+                        <img src="card-image/living-room.jpg" alt="living-room"  class="card_img">
+                    </div>
+                    <div class="card_content" >
+                        <h2 style="color: azure;">heading</h2>
+                        <h3 style="color: azure;">sub-heading</h3>
+                    </div>
+
+                </div>
+
+
+
+
+               
+            </div>
+
+             
+
+
+        </section>
+
+        <section class="contact_section">
+            <h1>Contact</h1>
+          <div class="contact_container">
+            <form action="">
+                <div>
+                    <label for="firstname">Fullname</label>
+                    <input type="text" placeholder="Firstname">
+                    <div class="warn"></div>
+                </div>
+                
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Email">
+                    <div class="warn"></div>
+                </div>
+
+                <div>
+                    <label for="phone">Phone</label>
+                    <input type="text" placeholder="Phone">
+                    <div class="warn"></div>
+                </div>
+                <div>
+                    <button>submit</button>
+                </div>
+               </form>
+          </div>
+        </section>
+
     </div>
 
-
-
-     <script src="./index.js"></script>
+    <script src="./index.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
